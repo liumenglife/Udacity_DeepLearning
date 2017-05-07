@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-#
 
 # TODO: Add import statements
 import numpy as np
@@ -131,3 +130,14 @@ inputs.shape
 weights = np.array([[0.02, 0.001, -0.003, 0.036],
                     [0.04, -0.003, 0.025, 0.009],
                     [0.012, -0.045, 0.28, -0.067]])
+
+weights
+
+weights.shape
+
+np.matmul(inputs, weights)
+
+a=np.matmul(inputs,weights.T)
+b=np.matmul(weights,inputs.T)
+a.shape
+b.shape

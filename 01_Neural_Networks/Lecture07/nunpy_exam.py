@@ -41,6 +41,7 @@ def multiply_inputs(m1, m2):
     else:
         return np.matmul(m2, m1)
 
+
 def find_mean(values):
     # TODO: Return the average of the values in the given Python list
     return np.mean(values)
